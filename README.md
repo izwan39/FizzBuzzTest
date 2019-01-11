@@ -3,26 +3,7 @@ This is the test for interview shortlist
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-Below is the answer using PHP:
-
-for ($i = 1; $i <= 100; $i++) {
-    if($i % 3 == 0 && $i % 5 == 0){
-        echo "FizzBuzz";
-        echo "<BR>";
-    }
-    else if($i % 3 == 0){
-        echo "Fizz";
-        echo "<BR>";
-    }
-    else if($i % 5 == 0){
-        echo "Buzz";
-        echo "<BR>";
-    }
-    else {
-        echo $i;
-        echo "<BR>";
-    }
-}
+The answer is in the file named answer.php
 
 this is the link to the result of the code:
 http://phpfiddle.org/main/code/63un-m51n
