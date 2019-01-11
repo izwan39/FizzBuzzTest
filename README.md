@@ -5,7 +5,6 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 
 Below is the answer using PHP:
 
-<?php
 for ($i = 1; $i <= 100; $i++) {
     if($i % 3 == 0 && $i % 5 == 0){
         echo "FizzBuzz";
@@ -24,8 +23,6 @@ for ($i = 1; $i <= 100; $i++) {
         echo "<BR>";
     }
 }
-
-?>
 
 this is the link to the result of the code:
 http://phpfiddle.org/main/code/63un-m51n
